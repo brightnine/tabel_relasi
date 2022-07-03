@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tampilan%20Data%20Progammer_files/bootstrap.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <title>Tampilan Data Progammer</title>
+</head>
+<body>
+    <h1>Tampilan Nama Programmer</h1>
+    <table class="table table-striped" border="1">
+        <tbody><tr>
+            <th>No</th>
+            <th>ID Programmer</th>
+            <th>Nama Programmer</th>
+            <th>Alamat Programmer</th>
+            <th>Bagian Pekerjaan</th>
+            <th colspan="2">Aksi</th>
+        </tr>
+                <tr>
+            <td>1</td>
+            <td>2120533801</td>
+            <td>sdsa</td>
+            <td>asda</td>
+            <td>1294823215</td>
+            <td>
+                <a href="http://localhost/tugas_relasi/src/programmer/edit.php?nomor=2120533801">
+                    <button class="btn btn-warning" type="submit">Edit</button>
+                </a>
+            </td>
+            <td>
+                <a href="http://localhost/tugas_relasi/src/programmer/proses-hapus.php?nomor=2120533801">
+                    <button class="btn btn-danger" type="submit" onclick="return confirm('Apakah anda yakin ingin menghapus data sdsa ?')">
+                    Hapus
+                    </button>
+                </a>
+            </td>
+        </tr>
+            </tbody></table>
+
+    <script src="Tampilan%20Data%20Progammer_files/bootstrap.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body></html>
